@@ -1,0 +1,36 @@
+# Cover Letter Generation Instructions
+
+When generating a cover letter for the candidate, follow this structure and rules:
+
+## Rules
+- Keep it to 3 short paragraphs + opening/closing
+- Never use hollow phrases: "I am excited to apply", "passion for", "synergy", "leverage"
+- Lead with a specific result from the candidate's background that directly maps to the job's top need
+- Mirror the job's language and terminology
+- Tailor the middle paragraph to the 2–3 most relevant competencies for THIS specific role
+- Close with a clear, confident ask (not begging)
+
+## Template Structure
+
+---
+[Date]
+
+[Hiring Manager Name or "Hiring Team"]  
+[Company Name]
+
+**Re: [Exact Job Title]**
+
+[Opening — 2 sentences: one specific result from the candidate's background that maps to the company's stated need, one connecting sentence]
+
+[Body — 3–4 sentences: match 2–3 of the candidate's core competencies to the role's explicit requirements. Be specific. Use numbers where possible.]
+
+[Closing — 2 sentences: brief forward-looking statement + direct ask for a conversation]
+
+[Your Name]  
+[Your Phone] · [Your Email]  
+[Your LinkedIn URL]  
+---
+
+## Key Results to Pull From
+
+List the candidate's own quantified career highlights here (use the most relevant ones per role) — e.g. revenue or cost-savings figures, team size and scope led, notable recognitions, process improvements with before/after metrics, certifications, and executive education. Pull these from `config.json`'s `profile_summary.key_strengths` and the candidate's resume.
