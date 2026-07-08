@@ -1,0 +1,48 @@
+# Job Scoring Rubric
+
+Score each job 1–10. Use this breakdown. Customize the title/industry examples and point weights below to match your own target roles and priorities — see `config.json`'s `scoring_weights` section.
+
+## Scoring Criteria
+
+### Title Match (25 pts)
+- VP Professional Services / VP Global Operations / VP Customer Success / SVP PS → 25
+- VP Service Delivery / VP GRC / VP Risk & Compliance → 23
+- Senior Director Professional Services / Senior Director Global Operations / Senior Director CS → 20
+- Senior Director GRC / Senior Director Service Delivery → 18
+- Director Professional Services / Director Global Operations / Director Customer Success → 15
+- Director GRC / Director Service Delivery / Director SAP → 13
+- Manager or below → 0 (skip)
+
+### Industry Match (20 pts)
+- Enterprise SaaS, Cybersecurity, GRC, ERP, Cloud → 20
+- Technology services, IT consulting → 15
+- Non-tech enterprise (manufacturing, finance) with large SAP footprint → 10
+- Unrelated industry → 0
+
+### Leadership Scope (20 pts)
+- Multi-region team (NA + EMEA or APAC), 15+ direct/indirect reports, P&L → 20
+- Multi-region OR large team (10+) OR P&L → 15
+- Single region, team of 5–10 → 10
+- IC or small team, no P&L → 5
+
+### SAP/GRC Relevance (15 pts)
+- SAP GRC, S/4HANA, ERP compliance explicitly required → 15
+- Enterprise compliance / risk platforms (non-SAP) → 10
+- General enterprise software PS → 5
+- No relevance → 0
+
+### Global Scope (10 pts)
+- Global delivery explicitly mentioned → 10
+- EMEA or APAC mentioned → 7
+- North America only → 3
+
+### Salary Match (10 pts)
+- $225K–$275K+ or "competitive" at VP level → 10
+- $175K–$224K → 5
+- Below $175K or not listed → 2
+
+## Score Thresholds
+- **8–10**: Strong match — generate cover letter, add to tracker as "Priority"
+- **6–7**: Good match — add to tracker as "Review", generate cover letter on request
+- **4–5**: Weak match — add to tracker as "Low Priority", no cover letter
+- **1–3**: Skip — do not add to tracker
