@@ -1,0 +1,17 @@
+# Personal data — never commit
+config.json
+tracker.csv
+cover_letters/
+screenshots/
+sessions/
+*.pdf
+
+# One-off, company-specific application scripts and notes — personal, not part of the reusable tool
+apply_elite_technology.py
+apply_instacart_sr_dir_enterprise.py
+apply_rubix_vp_pmo.py
+APPLY_NOW.md
+
+# Python
+__pycache__/
+*.pyc
