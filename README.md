@@ -1,4 +1,4 @@
-# Job Hunting System — How to Use
+# Job Hunting System : How to Use
 
 ## Setup (one-time)
 
