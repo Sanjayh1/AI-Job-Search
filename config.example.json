@@ -1,0 +1,86 @@
+{
+  "candidate": {
+    "name": "Your Name",
+    "email": "you@example.com",
+    "phone": "(555) 555-0100",
+    "location": "Your City, ST",
+    "address": "123 Main St",
+    "city": "Your City",
+    "state": "ST",
+    "zip": "00000",
+    "linkedin": "https://www.linkedin.com/in/your-handle",
+    "resume_path": "/absolute/path/to/your/resume.pdf",
+    "work_authorization": "US Citizen",
+    "requires_sponsorship": false,
+    "gender": "Prefer not to say",
+    "ethnicity": "Prefer not to say",
+    "veteran_status": "Prefer not to say",
+    "disability_status": "Prefer not to say"
+  },
+  "search": {
+    "target_titles": [
+      "VP Professional Services",
+      "VP Global Operations",
+      "VP Customer Success",
+      "Director Professional Services",
+      "Senior Director Operations"
+    ],
+    "target_industries": "ALL — no industry restriction; open to any sector",
+    "locations": [
+      "Austin, TX",
+      "remote"
+    ],
+    "country_codes": ["US"],
+    "country_code": "US",
+    "job_type": "fulltime",
+    "target_salary_min": 150000,
+    "target_salary_max": 200000,
+    "open_to_relocate": false,
+    "open_to_international_relocation": false,
+    "international_relocation_notes": ""
+  },
+  "profile_summary": {
+    "years_experience": 10,
+    "current_title": "Your Current Title",
+    "current_company": "Your Current Company",
+    "key_strengths": [
+      "Key strength 1",
+      "Key strength 2",
+      "Key strength 3"
+    ],
+    "certifications": [],
+    "target_industries": [
+      "Enterprise Software",
+      "SaaS"
+    ],
+    "deal_breakers": [
+      "Individual contributor only roles"
+    ]
+  },
+  "ats_answers": {
+    "_note": "Standard answers for ATS qualifying questions. Use these when filling Greenhouse/Ashby/Lever/Workday forms. Fill in your own answers below — leave EEOC fields as 'Prefer not to say' or fill in truthfully; these are always optional under US law.",
+    "visa_sponsorship_required": "No",
+    "work_authorized_us": "Yes",
+    "management_experience_years": "10",
+    "people_management": "Yes",
+    "remote_work": "Yes",
+    "willing_to_travel": "Yes (up to 25%)",
+    "salary_expectations": "DO NOT FILL — leave blank per rules",
+    "current_title": "DO NOT FILL — leave blank per rules",
+    "current_company": "DO NOT FILL — leave blank per rules",
+    "current_salary": "DO NOT FILL — leave blank per rules",
+    "eeoc": {
+      "gender": "Prefer not to say",
+      "race_ethnicity": "Prefer not to say",
+      "veteran_status": "I am not a protected veteran",
+      "disability_status": "I don't wish to answer"
+    }
+  },
+  "scoring_weights": {
+    "title_match": 30,
+    "industry_match": 20,
+    "leadership_scope": 30,
+    "global_scope": 10,
+    "salary_match": 10
+  }
+}
