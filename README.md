@@ -1,4 +1,4 @@
-# Job Hunting System : How to Use
+# AI-Powered Job Search using Claude Code : How to Use
 
 ## Setup (one-time)
 
